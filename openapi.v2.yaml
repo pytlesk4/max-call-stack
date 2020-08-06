@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: openapi.v2
+  version: '2.0'
+servers:
+  - url: 'http://localhost:3000'
+paths: {}
+components:
+  schemas:
+    Model_v2:
+      title: Model_v2
+      type: object
+      properties:
+        id:
+          type: string
